@@ -1,0 +1,109 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color:  #9C835F;
+}
+
+/* .player .gunting{
+    background-color: ;
+} */
+
+.nav-bar{
+    /* border: 1px solid black; */
+    display: flex;    
+    padding: 20px;
+
+}
+
+.nav-bar .member{
+    margin-left: 40px;
+
+}
+
+.nav-bar :nth-child(1){
+    width: 43;
+    height: 40px;
+    margin-top: 1.1%;
+    margin-left: 2%;
+}
+
+.container-1{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 .player img:hover{
+    transform: scale(1.2) rotate(15deg);
+    cursor: pointer;
+}
+
+
+
+.container-1 .player > *, .computer > *{
+    margin-bottom: 35%;
+}
+
+
+.container-1 .result h1{
+    font-size: 4em;
+    color: red;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content:center ;
+  
+}
+
+.suit-img{
+    display: block;
+    /* width: 50%;    */
+}
+
+.player img {
+    width: 83%;
+}
+
+.computer img{
+    width: 61%;
+}
+
+div.computer h1{
+    margin-left: -22%;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+}
+
+/* refresh img */
+
+.refresh img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.refresh {
+    margin-top: 2%;
+    text-align: center;    
+    
+}
+
+.refresh img{
+    width: 4%;
+}
+
+.container-1 .result .win{
+    width: 271.11px;
+    height: 166.93px;
+    background-color: #4C9654;
+    color: #FFFFFF;
+    transform: rotate(-28.87deg);
+}
+
+.bg-trans{
+    background-color: #C4C4C4;
+}
